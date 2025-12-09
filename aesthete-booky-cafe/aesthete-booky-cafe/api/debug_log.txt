@@ -1,0 +1,5584 @@
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/update-profile
+Parts: Array
+(
+    [0] => api
+    [1] => update-profile
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/update-profile
+Parts: Array
+(
+    [0] => api
+    [1] => update-profile
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/update-profile
+Parts: Array
+(
+    [0] => api
+    [1] => update-profile
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/update-profile
+Parts: Array
+(
+    [0] => api
+    [1] => update-profile
+)
+
+Method: POST
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/request-email-otp
+Parts: Array
+(
+    [0] => api
+    [1] => request-email-otp
+)
+
+Method: POST
+URI: /api/update-profile
+Parts: Array
+(
+    [0] => api
+    [1] => update-profile
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: POST
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: PUT
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: PUT
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: PUT
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: PUT
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: POST
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/request-cancellation
+Parts: Array
+(
+    [0] => api
+    [1] => request-cancellation
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: POST
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/request-cancellation
+Parts: Array
+(
+    [0] => api
+    [1] => request-cancellation
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: POST
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: PUT
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: POST
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/menu
+Parts: Array
+(
+    [0] => api
+    [1] => menu
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: POST
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/menu
+Parts: Array
+(
+    [0] => api
+    [1] => menu
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/request-cancellation
+Parts: Array
+(
+    [0] => api
+    [1] => request-cancellation
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: POST
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_cancel_booking
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancel_booking
+)
+
+Method: POST
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/update-profile
+Parts: Array
+(
+    [0] => api
+    [1] => update-profile
+)
+
+Method: POST
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/1
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 1
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_add_booking
+Parts: Array
+(
+    [0] => api
+    [1] => admin_add_booking
+)
+
+Method: POST
+URI: /api/admin_cancel_all_bookings
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancel_all_bookings
+)
+
+Method: POST
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_add_booking
+Parts: Array
+(
+    [0] => api
+    [1] => admin_add_booking
+)
+
+Method: POST
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/admin_approve_booking
+Parts: Array
+(
+    [0] => api
+    [1] => admin_approve_booking
+)
+
+Method: POST
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: POST
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/events/2
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 2
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: POST
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events/4
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 4
+)
+
+Method: GET
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/events/5
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 5
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/request-cancellation
+Parts: Array
+(
+    [0] => api
+    [1] => request-cancellation
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_approve_booking
+Parts: Array
+(
+    [0] => api
+    [1] => admin_approve_booking
+)
+
+Method: POST
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/menu
+Parts: Array
+(
+    [0] => api
+    [1] => menu
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_ban_user
+Parts: Array
+(
+    [0] => api
+    [1] => admin_ban_user
+)
+
+Method: POST
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_ban_user
+Parts: Array
+(
+    [0] => api
+    [1] => admin_ban_user
+)
+
+Method: POST
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: PUT
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: PUT
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: PUT
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/menu
+Parts: Array
+(
+    [0] => api
+    [1] => menu
+)
+
+Method: GET
+URI: /api/register
+Parts: Array
+(
+    [0] => api
+    [1] => register
+)
+
+Method: POST
+URI: /api/register
+Parts: Array
+(
+    [0] => api
+    [1] => register
+)
+
+Method: POST
+URI: /api/verify
+Parts: Array
+(
+    [0] => api
+    [1] => verify
+)
+
+Method: POST
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/menu
+Parts: Array
+(
+    [0] => api
+    [1] => menu
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/1
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 1
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/menu
+Parts: Array
+(
+    [0] => api
+    [1] => menu
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/menu
+Parts: Array
+(
+    [0] => api
+    [1] => menu
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/menu
+Parts: Array
+(
+    [0] => api
+    [1] => menu
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/register
+Parts: Array
+(
+    [0] => api
+    [1] => register
+)
+
+Method: POST
+URI: /api/verify
+Parts: Array
+(
+    [0] => api
+    [1] => verify
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/forgot-password
+Parts: Array
+(
+    [0] => api
+    [1] => forgot-password
+)
+
+Method: POST
+URI: /api/forgot-password
+Parts: Array
+(
+    [0] => api
+    [1] => forgot-password
+)
+
+Method: POST
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/forgot-password
+Parts: Array
+(
+    [0] => api
+    [1] => forgot-password
+)
+
+Method: POST
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/forgot-password
+Parts: Array
+(
+    [0] => api
+    [1] => forgot-password
+)
+
+Method: POST
+URI: /api/forgot-password
+Parts: Array
+(
+    [0] => api
+    [1] => forgot-password
+)
+
+Method: POST
+URI: /api/forgot-password
+Parts: Array
+(
+    [0] => api
+    [1] => forgot-password
+)
+
+Method: POST
+URI: /api/forgot-password
+Parts: Array
+(
+    [0] => api
+    [1] => forgot-password
+)
+
+Method: POST
+URI: /api/forgot-password
+Parts: Array
+(
+    [0] => api
+    [1] => forgot-password
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/menu
+Parts: Array
+(
+    [0] => api
+    [1] => menu
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register
+Parts: Array
+(
+    [0] => api
+    [1] => register
+)
+
+Method: POST
+URI: /api/register
+Parts: Array
+(
+    [0] => api
+    [1] => register
+)
+
+Method: POST
+URI: /api/register
+Parts: Array
+(
+    [0] => api
+    [1] => register
+)
+
+Method: POST
+URI: /api/verify
+Parts: Array
+(
+    [0] => api
+    [1] => verify
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register-event
+Parts: Array
+(
+    [0] => api
+    [1] => register-event
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_upload
+Parts: Array
+(
+    [0] => api
+    [1] => admin_upload
+)
+
+Method: POST
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: POST
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/admin_cancel_booking
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancel_booking
+)
+
+Method: POST
+URI: /api/admin_event_registrations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_event_registrations
+)
+
+Method: GET
+URI: /api/update-profile
+Parts: Array
+(
+    [0] => api
+    [1] => update-profile
+)
+
+Method: POST
+URI: /api/request-cancellation
+Parts: Array
+(
+    [0] => api
+    [1] => request-cancellation
+)
+
+Method: POST
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/admin_users
+Parts: Array
+(
+    [0] => api
+    [1] => admin_users
+)
+
+Method: GET
+URI: /api/admin_books
+Parts: Array
+(
+    [0] => api
+    [1] => admin_books
+)
+
+Method: GET
+URI: /api/admin_menu
+Parts: Array
+(
+    [0] => api
+    [1] => admin_menu
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: POST
+URI: /api/admin_cancellations
+Parts: Array
+(
+    [0] => api
+    [1] => admin_cancellations
+)
+
+Method: GET
+URI: /api/admin_events
+Parts: Array
+(
+    [0] => api
+    [1] => admin_events
+)
+
+Method: GET
+URI: /api/my-events
+Parts: Array
+(
+    [0] => api
+    [1] => my-events
+)
+
+Method: GET
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/6
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 6
+)
+
+Method: GET
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET
+URI: /api/events/1
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 1
+)
+
+Method: GET
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register
+Parts: Array
+(
+    [0] => api
+    [1] => register
+)
+
+Method: POST
+URI: /api/events/3
+Parts: Array
+(
+    [0] => api
+    [1] => events
+    [2] => 3
+)
+
+Method: GET
+URI: /api/register
+Parts: Array
+(
+    [0] => api
+    [1] => register
+)
+
+Method: POST
+URI: /api/verify
+Parts: Array
+(
+    [0] => api
+    [1] => verify
+)
+
+Method: POST
+URI: /api/login
+Parts: Array
+(
+    [0] => api
+    [1] => login
+)
+
+Method: POST
+URI: /api/books
+Parts: Array
+(
+    [0] => api
+    [1] => books
+)
+
+Method: GET
+URI: /api/events
+Parts: Array
+(
+    [0] => api
+    [1] => events
+)
+
+Method: GET

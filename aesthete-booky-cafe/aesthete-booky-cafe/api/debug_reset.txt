@@ -1,0 +1,14 @@
+Reset Request: Email=rakib@gmail.com, Code=376036, NewPass=rakib1234
+DB Result: Array
+(
+    [id] => 2
+    [verification_code] => 620615
+)
+
+Reset Request: Email=rakib@gmail.com, Code=267104, NewPass=rakib12345
+DB Result: Array
+(
+    [id] => 2
+    [verification_code] => 267104
+)
+

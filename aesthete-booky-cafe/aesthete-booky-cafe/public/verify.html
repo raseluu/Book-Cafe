@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Email - Aesthete Book Cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .auth-container {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .auth-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: var(--shadow-lg);
+            width: 100%;
+            max-width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="/" class="logo">Aesthete.</a>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="auth-container">
+        <div class="auth-card">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Verify Email</h2>
+            <p style="text-align: center; margin-bottom: 1.5rem; color: #666;">
+                Please enter the verification code sent to your email.
+            </p>
+            <form id="verify-form">
+                <input type="hidden" id="email">
+                <div class="form-group">
+                    <label for="code">Verification Code</label>
+                    <input type="text" id="code" class="form-control" placeholder="123456" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Verify</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script>
+        // Prefill email
+        const email = localStorage.getItem('verify_email');
+        if (email) {
+            document.getElementById('email').value = email;
+        } else {
+            alert('No email found to verify. Redirecting to login.');
+            window.location.href = 'login.html';
+        }
+
+        document.getElementById('verify-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const code = document.getElementById('code').value;
+
+            try {
+                const res = await fetch('/api/verify', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email, code })
+                });
+                const data = await res.json();
+
+                if (res.ok) {
+                    Toast.show(data.message, 'success');
+                    localStorage.removeItem('verify_email');
+                    setTimeout(() => window.location.href = 'login.html', 1500);
+                } else {
+                    Toast.show(data.message || 'Verification failed', 'error');
+                }
+            } catch (err) {
+                console.error(err);
+                Toast.show('An error occurred during verification.', 'error');
+            }
+        });
+    </script>
+</body>
+
+</html>

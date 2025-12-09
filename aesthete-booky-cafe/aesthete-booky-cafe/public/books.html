@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books - Aesthete Book Cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header injected by layout.js -->
+
+    <div class="container" style="padding-top: 120px; padding-bottom: 4rem;">
+        <div class="section-title">
+            <h2>Our Collection</h2>
+            <p>Stories that travel across borders.</p>
+        </div>
+
+        <div class="grid" id="books-grid">
+            <div style="grid-column: 1/-1; text-align: center;">Loading collection...</div>
+        </div>
+    </div>
+
+    <!-- Footer injected by layout.js -->
+
+    <script src="js/layout.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('/api/books')
+                .then(res => res.json())
+                .then(data => {
+                    const grid = document.getElementById('books-grid');
+                    grid.innerHTML = '';
+                    data.forEach(book => {
+                        const card = document.createElement('div');
+                        card.className = 'card';
+                        card.innerHTML = `
+                        <div class="card-img-wrapper">
+                            <img src="${book.image}" alt="${book.title}" class="card-img" onerror="handleImageError(this)">
+                        </div>
+                        <div class="card-body">
+                            <span class="card-meta">Book</span>
+                            <h3 class="card-title">${book.title}</h3>
+                            <p class="card-subtitle">${book.author}</p>
+                            <p class="card-price">৳ ${book.price}</p>
+                            <p class="card-desc">${book.description || 'No description available.'}</p>
+                        </div>
+                    `;
+                        grid.appendChild(card);
+                    });
+                })
+                .catch(err => console.error(err));
+        });
+    </script>
+</body>
+
+</html>

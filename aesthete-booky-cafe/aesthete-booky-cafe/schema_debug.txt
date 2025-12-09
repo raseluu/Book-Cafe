@@ -1,0 +1,8 @@
+Columns in 'events' table:
+id (int(11))
+title (varchar(255))
+date (datetime)
+location (varchar(255))
+image (varchar(255))
+description (text)
+created_at (timestamp)

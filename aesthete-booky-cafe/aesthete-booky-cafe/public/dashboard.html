@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Dashboard - Aesthete</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Dashboard Specific Styles */
+        :root {
+            --dashboard-sidebar-width: 280px;
+            --dashboard-bg: #f3f4f6;
+        }
+
+        body {
+            background-color: var(--dashboard-bg);
+        }
+
+        .dashboard-container {
+            display: flex;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem;
+            padding-top: 100px;
+            /* Header + gap */
+            gap: 2rem;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: var(--dashboard-sidebar-width);
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+            height: fit-content;
+            position: sticky;
+            top: 100px;
+            display: flex;
+            flex-direction: column;
+            border-right: none;
+            z-index: 10;
+        }
+
+        .sidebar-profile {
+            text-align: center;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 2rem;
+        }
+
+        .sidebar-avatar {
+            width: 80px;
+            height: 80px;
+            background: var(--color-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            font-family: var(--font-heading);
+            margin: 0 auto 1rem;
+            box-shadow: 0 10px 20px rgba(156, 107, 70, 0.2);
+        }
+
+        .sidebar-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 0.1rem;
+            color: var(--color-dark);
+        }
+
+        .sidebar-role {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--color-primary);
+        }
+
+        /* Sidebar overrides global nav */
+        .sidebar nav {
+            display: flex;
+            flex-direction: column !important;
+            gap: 0.5rem;
+            width: 100%;
+        }
+
+        .nav-item {
+            display: block;
+            width: 100%;
+            padding: 0.8rem 1rem;
+            border-radius: 10px;
+            margin-bottom: 0.2rem;
+            text-align: left;
+            background: transparent;
+            border: 1px solid #9c6b4c;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .nav-item:hover,
+        .nav-item.active {
+            background: #fdf8f5;
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+
+        .nav-item i {
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            margin-left: 0;
+            padding: 0;
+            max-width: none;
+        }
+
+        .content-header {
+            margin-bottom: 2rem;
+        }
+
+        .content-header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .content-header p {
+            color: var(--color-text-muted);
+        }
+
+        /* Cards */
+        .dashboard-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+            margin-bottom: 2rem;
+        }
+
+        .dashboard-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+            color: var(--color-dark);
+        }
+
+        /* Forms Override */
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 16px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        @media (max-width: 900px) {
+            .dashboard-container {
+                flex-direction: column;
+                padding-top: 90px;
+            }
+
+            .sidebar {
+                width: 100%;
+                position: relative;
+                top: 0;
+            }
+
+            .sidebar-profile {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                padding-bottom: 0;
+                border-bottom: none;
+                margin-bottom: 1rem;
+                text-align: left;
+            }
+
+            .sidebar-avatar {
+                margin: 0;
+                width: 50px;
+                height: 50px;
+                font-size: 1.5rem;
+            }
+
+            .nav-item span {
+                display: inline-block;
+                /* Changed from none to inline-block for mobile */
+            }
+
+            .main-content {
+                padding: 0;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+        }
+
+        /* Event Card Styles (Restored) */
+        .event-card {
+            display: flex;
+            background: #fff;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+            margin-bottom: 1.5rem;
+            border: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .event-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .event-date-box {
+            background: var(--color-bg);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 100px;
+            border-right: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .event-date-box .day {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            line-height: 1;
+        }
+
+        .event-date-box .month {
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            margin-top: 0.2rem;
+        }
+
+        .event-info {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Injected by layout.js -->
+
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-profile">
+                <div class="sidebar-avatar" id="d-avatar">U</div>
+                <div class="sidebar-name" id="d-name">User</div>
+                <div class="sidebar-role" id="d-role">MEMBER</div>
+            </div>
+
+            <nav>
+                <button type="button" class="nav-item active" onclick="showSection('overview')">
+                    <i>📊</i> <span>Overview</span>
+                </button>
+                <button type="button" class="nav-item" onclick="showSection('events')">
+                    <i>📅</i> <span>My Events</span>
+                </button>
+                <button type="button" class="nav-item" onclick="showSection('settings')">
+                    <i>⚙️</i> <span>Settings</span>
+                </button>
+                <div style="margin-top: auto; padding-top: 2rem;">
+                    <button type="button" id="d-logout" class="nav-item" style="color: #c62828;">
+                        <i>🚪</i> <span>Logout</span>
+                    </button>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <!-- Welcome Header -->
+            <div class="content-header">
+                <h1 id="welcome-msg">Welcome back!</h1>
+                <p>Manage your account and view your upcoming activities.</p>
+            </div>
+
+            <!-- Overview Section -->
+            <div id="sec-overview" class="section">
+                <div class="dashboard-card"
+                    style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%); color: white;">
+                    <h3 style="color: white; border-color: rgba(255,255,255,0.2);">Membership Status</h3>
+                    <div style="display: flex; justify-content: space-between; align-items: flex-end;">
+                        <div>
+                            <span style="display: block; font-size: 0.9rem; opacity: 0.8;">Current Plan</span>
+                            <span style="font-size: 2rem; font-weight: 700;">Standard Member</span>
+                        </div>
+                        <div style="text-align: right;">
+                            <span style="display: block; font-size: 0.9rem; opacity: 0.8;">Joined</span>
+                            <span style="font-size: 1.2rem;">2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-card">
+                    <h3>Recent Activity</h3>
+                    <p style="color: #777; font-style: italic;">No recent activity to show.</p>
+                </div>
+            </div>
+
+            <!-- Events Section -->
+            <div id="sec-events" class="section" style="display: none;">
+                <div class="dashboard-card">
+                    <h3>Upcoming Events</h3>
+                    <div id="events-loader">Loading...</div>
+                    <div id="events-container"></div>
+                    <div id="events-empty" style="display:none; text-align: center; color: #777;">
+                        <p>No upcoming events registered.</p>
+                        <a href="events.html" class="btn btn-primary" style="margin-top: 1rem;">Browse Events</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Settings Section -->
+            <div id="sec-settings" class="section" style="display: none;">
+                <div class="dashboard-card">
+                    <h3>Profile Information</h3>
+                    <form id="settings-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" id="set-name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="text" id="set-phone" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <div style="display: flex; gap: 1rem;">
+                                <input type="email" id="set-email" class="form-control">
+                                <button type="button" class="btn btn-outline" onclick="verifyEmailChange()"
+                                    id="btn-verify-email" style="display:none;">Verify Change</button>
+                            </div>
+                            <small style="color: var(--color-text-muted);">Changing email requires verification.</small>
+                        </div>
+
+                        <hr style="margin: 2rem 0; border: 0; border-top: 1px solid #eee;">
+
+                        <h3>Security</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Current Password</label>
+                                <input type="password" id="set-old-pass" class="form-control">
+                                <div style="text-align: right; margin-top: 0.5rem;">
+                                    <a href="forgot-password.html" target="_blank"
+                                        style="font-size: 0.85rem; color: var(--color-primary);">Forgot Password?</a>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>New Password</label>
+                                <input type="password" id="set-new-pass" class="form-control">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="padding: 1rem 3rem;">Save Changes</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- OTP Modal -->
+    <div id="otp-modal" class="modal">
+        <div class="modal-content">
+            <h3>Verify Email Change</h3>
+            <p style="margin-bottom: 2rem; color: #666;">We sent a code to your <b>current</b> email address to confirm
+                this change.</p>
+            <input type="text" id="otp-input" class="form-control" placeholder="Enter 6-digit code"
+                style="text-align: center; letter-spacing: 5px; font-size: 1.5rem; margin-bottom: 2rem;">
+            <div style="display: flex; gap: 1rem; justify-content: center;">
+                <button type="button" class="btn btn-outline" onclick="closeModal()">Cancel</button>
+                <button type="button" class="btn btn-primary" onclick="submitProfileUpdate()">Confirm & Save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Layout & Logic -->
+    <script src="js/layout.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        // State
+        let currentUser = null;
+        let pendingUpdate = null; // Stores payload waiting for OTP
+
+        function showSection(id) {
+            document.querySelectorAll('.section').forEach(el => el.style.display = 'none');
+            document.getElementById('sec-' + id).style.display = 'block';
+
+            document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+            // This is a simple logic, usually would map ID to button index
+            event.currentTarget.classList.add('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            if (!Auth.isLoggedIn()) {
+                window.location.href = 'login.html';
+                return;
+            }
+            currentUser = Auth.getUser();
+            initUI();
+            fetchEvents();
+
+            document.getElementById('settings-form').addEventListener('submit', handleFormSubmit);
+            document.getElementById('d-logout').addEventListener('click', () => Auth.logout());
+
+            // Watch email field for changes
+            document.getElementById('set-email').addEventListener('input', (e) => {
+                const btn = document.getElementById('btn-verify-email');
+                if (e.target.value !== currentUser.email) {
+                    // Email changed
+                }
+            });
+        });
+
+        function initUI() {
+            document.getElementById('d-name').textContent = currentUser.name;
+            // Fallback generation if member_id is missing from local storage (stale session)
+            const displayId = currentUser.member_id || ('Aesthetic' + String(currentUser.id).padStart(5, '0'));
+            document.getElementById('d-role').textContent = displayId.toUpperCase();
+            document.getElementById('d-avatar').textContent = currentUser.name.charAt(0).toUpperCase();
+            document.getElementById('welcome-msg').textContent = `Welcome back, ${currentUser.name.split(' ')[0]}!`;
+
+            // Form
+            document.getElementById('set-name').value = currentUser.name;
+            document.getElementById('set-email').value = currentUser.email;
+            document.getElementById('set-phone').value = currentUser.phone || '';
+        }
+
+        function handleFormSubmit(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('set-name').value;
+            const email = document.getElementById('set-email').value;
+            const phone = document.getElementById('set-phone').value;
+            const oldPass = document.getElementById('set-old-pass').value;
+            const newPass = document.getElementById('set-new-pass').value;
+
+            const payload = {
+                id: currentUser.id,
+                name, email, phone
+            };
+
+            if (newPass) {
+                payload.new_password = newPass;
+                payload.old_password = oldPass;
+            }
+
+            // Check if email changed
+            if (email !== currentUser.email) {
+                // Trigger OTP Flow
+                pendingUpdate = payload;
+                requestOtp();
+            } else {
+                // Normal Update
+                submitUpdate(payload);
+            }
+        }
+
+        async function requestOtp() {
+            Toast.show('Sending verification code...', 'default');
+            try {
+                const res = await fetch('/api/request-email-otp', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ user_id: currentUser.id })
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    document.getElementById('otp-modal').style.display = 'flex';
+                    Toast.show('Code sent to your inbox!', 'success');
+                } else {
+                    Toast.show(data.message, 'error');
+                }
+            } catch (err) {
+                console.error(err);
+                alert('Error requesting OTP');
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('otp-modal').style.display = 'none';
+            pendingUpdate = null;
+        }
+
+        function submitProfileUpdate() {
+            const otp = document.getElementById('otp-input').value;
+            if (!otp) {
+                alert('Please enter the code');
+                return;
+            }
+            if (!pendingUpdate) return;
+
+            pendingUpdate.otp = otp;
+            submitUpdate(pendingUpdate);
+            closeModal();
+        }
+
+        async function submitUpdate(payload) {
+            const btn = document.querySelector('button[type="submit"]');
+            btn.innerText = 'Saving...';
+            btn.disabled = true;
+
+            try {
+                const res = await fetch('/api/update-profile', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const data = await res.json();
+
+                if (res.ok && data.user) {
+                    Auth.login(data.user); // Update local
+                    Toast.show('Profile updated successfully!', 'success');
+                    setTimeout(() => window.location.reload(), 1500);
+                } else {
+                    Toast.show(data.message || 'Update failed', 'error');
+                    btn.innerText = 'Save Changes';
+                    btn.disabled = false;
+                }
+            } catch (err) {
+                console.error(err);
+                Toast.show('Network error', 'error');
+                btn.innerText = 'Save Changes';
+                btn.disabled = false;
+            }
+        }
+
+        async function fetchEvents() {
+            try {
+                const user = Auth.getUser();
+                const res = await fetch(`/api/my-events?user_id=${user.id}`);
+                const data = await res.json();
+
+                const container = document.getElementById('events-container');
+                const loader = document.getElementById('events-loader');
+
+                loader.style.display = 'none'; // Hide loader
+                container.innerHTML = '';
+
+                if (data.length === 0) {
+                    container.innerHTML = '<p style="color:#666;">No upcoming events.</p>';
+                    return;
+                }
+
+                data.forEach(ev => {
+                    const dateObj = new Date(ev.date);
+                    const day = dateObj.toLocaleDateString('en-US', { day: 'numeric' });
+                    const month = dateObj.toLocaleDateString('en-US', { month: 'short' });
+                    const time = dateObj.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+                    const div = document.createElement('div');
+                    div.className = 'event-card';
+
+                    let statusBadge = '';
+                    if (ev.status === 'pending_cancellation') {
+                        statusBadge = `<span style="font-size:0.8rem; color:orange; font-weight:bold; display:block; margin-top:0.5rem;">Deletion Pending</span>`;
+                    } else if (ev.status === 'cancelled') {
+                        const by = ev.cancelled_by === 'admin' ? 'Admin' : 'You';
+                        const reason = ev.cancellation_reason ? `<br><small style="color:#666; font-weight:normal;">Reason: ${ev.cancellation_reason}</small>` : '';
+                        statusBadge = `<span style="font-size:0.8rem; color:red; font-weight:bold; display:block; margin-top:0.5rem;">Cancelled by ${by}${reason}</span>`;
+                    } else if (ev.status === 'waitlist') {
+                        statusBadge = `<span style="font-size:0.8rem; background:#fff3cd; color:#856404; padding:2px 8px; border-radius:4px; font-weight:bold; display:inline-block; margin-top:0.5rem;">⏳ Waitlisted</span>`;
+                        // Still allow cancel
+                        statusBadge += `<br><button class="btn btn-outline" style="margin-top:0.5rem; padding: 0.3rem 0.6rem; font-size: 0.8rem; border-color: #e57373; color: #e57373;" onclick='openCancelModal(${ev.registration_id})'>Cancel Request</button>`;
+                    } else {
+                        // Show Cancel Button Only if confirmed
+                        statusBadge = `<button class="btn btn-outline" style="margin-top:0.5rem; padding: 0.3rem 0.6rem; font-size: 0.8rem; border-color: #e57373; color: #e57373;" onclick='openCancelModal(${ev.registration_id})'>Cancel Request</button>`;
+                    }
+
+                    div.innerHTML = `
+                        <div class="event-date-box">
+                            <span class="day">${day}</span>
+                            <span class="month">${month}</span>
+                        </div>
+                        <div class="event-info">
+                            <h4 style="margin-bottom: 0.3rem; font-size: 1.1rem;">${ev.title}</h4>
+                            <p style="color:#666; font-size:0.9rem; margin-bottom: 0.5rem;">📍 ${ev.location}</p>
+                            <p style="color:var(--color-primary); font-size:0.85rem; font-weight:500;">🕗 ${time}</p>
+                            ${statusBadge}
+                        </div>
+                    `;
+                    container.appendChild(div);
+                });
+            } catch (err) {
+                console.error(err);
+                document.getElementById('events-loader').innerText = 'Failed to load events.';
+            }
+        }
+
+        function openCancelModal(regId) {
+            const reason = prompt("Please provide a reason for cancellation:");
+            if (reason) {
+                requestCancellation(regId, reason);
+            }
+        }
+
+        async function requestCancellation(regId, reason) {
+            try {
+                const res = await fetch('/api/request-cancellation', {
+                    method: 'POST', body: JSON.stringify({ registration_id: regId, reason: reason })
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    Toast.show('Cancellation requested', 'success');
+                    fetchEvents();
+                } else {
+                    Toast.show(data.message || 'Error', 'error');
+                }
+            } catch (e) { console.error(e); }
+        }
+    </script>
+</body>
+
+</html>

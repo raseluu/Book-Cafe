@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Aesthete</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* Admin Specific Styles - Inherits from Global + Dashboard overrides */
+        :root {
+            --dashboard-sidebar-width: 280px;
+            --dashboard-bg: #f3f4f6;
+        }
+
+        body {
+            background-color: var(--dashboard-bg);
+            display: none;
+            /* Hidden by default for security */
+        }
+
+        .dashboard-container {
+            display: flex;
+            max-width: 1400px;
+            /* Wider for tables */
+            margin: 0 auto;
+            padding: 2rem;
+            padding-top: 100px;
+            gap: 2rem;
+            min-height: 100vh;
+        }
+
+        /* Sidebar - Same as User Dashboard */
+        .sidebar {
+            width: var(--dashboard-sidebar-width);
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+            height: fit-content;
+            position: sticky;
+            top: 100px;
+            display: flex;
+            flex-direction: column;
+            z-index: 10;
+        }
+
+        .sidebar-profile {
+            text-align: center;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 2rem;
+        }
+
+        .sidebar-avatar {
+            width: 80px;
+            height: 80px;
+            background: var(--color-dark);
+            color: var(--color-accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin: 0 auto 1rem;
+        }
+
+        .sidebar-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--color-dark);
+        }
+
+        .sidebar-role {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--color-accent);
+        }
+
+        .nav-item {
+            display: block;
+            width: 100%;
+            padding: 0.8rem 1rem;
+            border-radius: 10px;
+            margin-bottom: 0.2rem;
+            text-align: left;
+            background: transparent;
+            border: none;
+            color: var(--color-text-muted);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .nav-item:hover,
+        .nav-item.active {
+            background: #fdf8f5;
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+
+        .nav-item i {
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            margin-left: 0;
+            padding: 0;
+            max-width: none;
+        }
+
+        .content-header {
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Tables */
+        .admin-table-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+            overflow: hidden;
+        }
+
+        .admin-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .admin-table th,
+        .admin-table td {
+            padding: 1rem 1.5rem;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .admin-table th {
+            background: #fafafa;
+            font-weight: 600;
+            color: var(--color-dark);
+            font-size: 0.9rem;
+        }
+
+        .admin-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .admin-table img {
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+            object-fit: cover;
+        }
+
+        .status-badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .status-badge.active {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .status-badge.banned {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        /* Actions */
+        .btn-sm {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+        }
+
+        .btn-icon {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #666;
+            transition: 0.2s;
+        }
+
+        .btn-icon:hover {
+            color: var(--color-primary);
+        }
+
+        .btn-icon.delete:hover {
+            color: #c62828;
+        }
+
+        /* Form Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 16px;
+            width: 100%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-family: inherit;
+        }
+
+        .image-preview {
+            width: 100%;
+            height: 200px;
+            background: #f9f9f9;
+            border: 2px dashed #ddd;
+            border-radius: 8px;
+            margin-top: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .image-preview span {
+            color: #999;
+        }
+
+        @media (max-width: 900px) {
+            .dashboard-container {
+                flex-direction: column;
+                padding-top: 90px;
+            }
+
+            .sidebar {
+                width: 100%;
+                position: relative;
+                top: 0;
+            }
+        }
+    </style>
+    <script>
+        // Immediate Client-Side Auth Check
+        (function () {
+            try {
+                const userStr = localStorage.getItem('user');
+                if (!userStr) throw new Error('No user');
+                const user = JSON.parse(userStr);
+                if (user.role !== 'admin') throw new Error('Not admin');
+
+                // Authorized
+                document.addEventListener('DOMContentLoaded', () => {
+                    document.body.style.display = 'block';
+                });
+            } catch (e) {
+                console.warn("Unauthorized access attempt:", e);
+                window.location.replace('../login.html');
+            }
+        })();
+    </script>
+</head>
+
+<body>
+
+    <!-- Navbar injected -->
+    <script src="../js/layout.js"></script>
+
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-profile">
+                <div class="sidebar-avatar">A</div>
+                <div class="sidebar-name">Admin Portal</div>
+                <div class="sidebar-role">SUPERUSER</div>
+            </div>
+
+            <nav style="display:flex; flex-direction:column; gap:0.5rem;">
+                <button class="nav-item active" onclick="showTab('users')"><i>👥</i> Users</button>
+                <button class="nav-item" onclick="showTab('menu')"><i>🍔</i> Menu</button>
+                <button class="nav-item" onclick="showTab('books')"><i>📚</i> Books</button>
+                <button class="nav-item" onclick="showTab('events')"><i>📅</i> Events</button>
+                <button class="nav-item" onclick="showTab('requests')"><i>📩</i> Requests <span id="req-badge"
+                        style="background:red; color:white; border-radius:50%; font-size:0.7rem; padding:2px 6px; display:none;">0</span></button>
+                <button class="nav-item" onclick="showTab('settings')"><i>⚙️</i> Settings</button>
+                <div style="margin-top:2rem; border-top:1px solid #eee; padding-top:1rem;">
+                    <a href="../index.html" class="nav-item"><i>🏠</i> Back to Home</a>
+                    <button id="admin-logout" class="nav-item" style="color: #c62828;"><i>🚪</i> Logout</button>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- REQUESTS TAB -->
+            <div id="tab-requests" class="tab-section" style="display:none;">
+                <div class="content-header">
+                    <h1>Cancellation Requests</h1>
+                </div>
+                <div class="admin-table-card">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Event</th>
+                                <th>Reason</th>
+                                <th>Seats</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="requests-table-body">
+                            <!-- JS populated -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- USERS TAB -->
+            <div id="tab-users" class="tab-section">
+                <div class="content-header">
+                    <h1>User Management</h1>
+                    <button class="btn btn-primary btn-sm" onclick="openUserModal()">+ Add User</button>
+                </div>
+                <div class="admin-table-card">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Member ID</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Role</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="users-table-body">
+                            <!-- JS populated -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- MENU TAB -->
+            <div id="tab-menu" class="tab-section" style="display:none;">
+                <div class="content-header">
+                    <h1>Menu Management</h1>
+                    <button class="btn btn-primary btn-sm" onclick="openMenuModal()">+ Add Item</button>
+                </div>
+                <div class="admin-table-card">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th width="60">Image</th>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="menu-table-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- BOOKS TAB -->
+            <div id="tab-books" class="tab-section" style="display:none;">
+                <div class="content-header">
+                    <h1>Book Inventory</h1>
+                    <button class="btn btn-primary btn-sm" onclick="openBookModal()">+ Add Book</button>
+                </div>
+                <div class="admin-table-card">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th width="60">Image</th>
+                                <th>Title</th>
+                                <th>Author</th>
+                                <th>Price</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="books-table-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- EVENTS TAB -->
+            <div id="tab-events" class="tab-section" style="display:none;">
+                <div class="content-header">
+                    <h1>Events</h1>
+                    <button class="btn btn-primary btn-sm" onclick="openEventModal()">+ Add Event</button>
+                </div>
+                <div class="admin-table-card">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th width="60">Image</th>
+                                <th>Title</th>
+                                <th>Date</th>
+                                <th>Seats</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="events-table-body"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- SETTINGS TAB -->
+            <div id="tab-settings" class="tab-section" style="display:none;">
+                <div class="content-header">
+                    <h1>Admin Settings</h1>
+                </div>
+                <div class="dashboard-card" style="max-width: 600px;">
+                    <form id="admin-settings-form">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" id="set-name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="text" id="set-phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" id="set-email" class="form-control" readonly style="background:#eee;"
+                                title="Email cannot be changed here for security">
+                        </div>
+
+                        <hr style="margin: 2rem 0; border: 0; border-top: 1px solid #eee;">
+
+                        <h3>Change Password</h3>
+                        <div class="form-group">
+                            <label>New Password</label>
+                            <input type="password" id="set-new-pass" class="form-control"
+                                placeholder="Leave blank to keep current">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </form>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Book/Event Modal (Shared Structure) -->
+    <div id="crud-modal" class="modal">
+        <div class="modal-content">
+            <h3 id="modal-title" style="margin-bottom:1.5rem;">Add Item</h3>
+            <form id="crud-form">
+                <input type="hidden" id="crud-id">
+                <input type="hidden" id="crud-type"> <!-- 'book' or 'event' -->
+
+                <!-- Dynamic Fields -->
+                <div class="form-group">
+                    <label>Title / Name</label>
+                    <input type="text" id="crud-title" class="form-control" required>
+                </div>
+
+                <div class="form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+                    <div class="form-group" id="grp-author">
+                        <label>Author</label>
+                        <input type="text" id="crud-author" class="form-control">
+                    </div>
+                    <!-- USER FIELDS -->
+                    <div class="form-group" id="grp-email" style="display:none;">
+                        <label>Email</label>
+                        <input type="email" id="crud-email" class="form-control">
+                    </div>
+                    <div class="form-group" id="grp-phone" style="display:none;">
+                        <label>Phone</label>
+                        <input type="text" id="crud-phone" class="form-control" placeholder="e.g. 01XXXXXXXXX">
+                    </div>
+                    <div class="form-group" id="grp-password" style="display:none;">
+                        <label>Password</label>
+                        <input type="password" id="crud-password" class="form-control" autocomplete="new-password">
+                    </div>
+                    <div class="form-group" id="grp-role" style="display:none;">
+                        <label>Role</label>
+                        <select id="crud-role" class="form-control">
+                            <option value="member">Member</option>
+                            <option value="admin">Admin</option>
+                        </select>
+                    </div>
+                    <!-- END USER FIELDS -->
+
+                    <div class="form-group" id="grp-category" style="display:none;">
+                        <label>Category</label>
+                        <input type="text" id="crud-category" class="form-control" placeholder="e.g. Coffee">
+                    </div>
+                    <div class="form-group" id="grp-price">
+                        <label>Price</label>
+                        <input type="number" id="crud-price" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-row" style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+                    <div class="form-group" id="grp-date" style="display:none;">
+                        <label>Date</label>
+                        <input type="datetime-local" id="crud-date" class="form-control">
+                    </div>
+                    <div class="form-group" id="grp-location" style="display:none;">
+                        <label>Location</label>
+                        <input type="text" id="crud-location" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group" id="grp-capacity" style="display:none;">
+                    <label>Seat Capacity</label>
+                    <input type="number" id="crud-capacity" class="form-control" placeholder="e.g. 50">
+                </div>
+
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea id="crud-desc" class="form-control" rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Image URL</label>
+                    <div style="display:flex; gap:0.5rem;">
+                        <input type="text" id="crud-image-url" class="form-control" placeholder="Image URL">
+                        <input type="file" id="crud-image-file" style="display:none;" onchange="previewImage(this)">
+                        <button type="button" class="btn btn-secondary"
+                            onclick="document.getElementById('crud-image-file').click()">Upload</button>
+                    </div>
+                    <div id="crud-preview" style="margin-top:0.5rem;"></div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ATTENDEES MODAL -->
+    <div id="attendees-modal" class="modal" style="display:none;">
+        <div class="modal-content" style="width: 700px; max-width: 95%;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+                <h3>Event Attendees</h3>
+                <div style="display:flex; gap:0.5rem;">
+                    <button class="btn btn-primary btn-sm" onclick="showAddAttendeeForm()">+ Add Attendee</button>
+                    <button class="btn btn-outline btn-sm" style="color:red; border-color:red;"
+                        onclick="cancelAllAttendees()">⚠️ Cancel All</button>
+                </div>
+            </div>
+
+            <!-- Add Attendee Form (Hidden by default) -->
+            <div id="add-attendee-form"
+                style="display:none; background:#f9f9f9; padding:1rem; margin-top:1rem; border-radius:8px;">
+                <h4 style="margin-bottom:0.5rem; font-size:0.9rem;">Manually Add Attendee</h4>
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.5rem; margin-bottom:0.5rem;">
+                    <input type="text" id="manual-name" class="form-control" placeholder="Name">
+                    <input type="text" id="manual-email" class="form-control" placeholder="Email">
+                    <input type="text" id="manual-phone" class="form-control" placeholder="Phone">
+                    <input type="number" id="manual-guests" class="form-control" placeholder="Guests" value="1" min="1">
+                </div>
+                <div style="text-align:right;">
+                    <button class="btn btn-secondary btn-sm"
+                        onclick="document.getElementById('add-attendee-form').style.display='none'">Cancel</button>
+                    <button class="btn btn-primary btn-sm" onclick="submitManualAttendee()">Add</button>
+                </div>
+            </div>
+
+            <div id="attendees-list" style="margin-top:1rem; max-height:400px; overflow-y:auto;">
+                <!-- Table -->
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Attendee Details</th>
+                            <th>Guests</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="attendees-table-body"></tbody>
+                </table>
+            </div>
+            <div class="form-actions" style="margin-top:1rem;">
+                <button type="button" class="btn btn-secondary"
+                    onclick="document.getElementById('attendees-modal').style.display = 'none'">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/app.js"></script>
+    <script src="admin.js"></script>
+</body>
+
+</html>

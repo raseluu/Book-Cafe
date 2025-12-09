@@ -1,0 +1,71 @@
+Update Request: stdClass Object
+(
+    [id] => 2
+    [name] => rakib 2
+    [email] => rakib@gmail.com
+    [phone] => 
+)
+
+Basic Update Result: Success
+Returning User: Array
+(
+    [id] => 2
+    [name] => rakib 2
+    [email] => rakib@gmail.com
+    [phone] => 
+    [role] => member
+)
+
+Update Request: stdClass Object
+(
+    [id] => 2
+    [name] => rakib 2
+    [email] => rakib2@gmail.com
+    [phone] => 
+)
+
+Basic Update Result: Success
+Returning User: Array
+(
+    [id] => 2
+    [name] => rakib 2
+    [email] => rakib2@gmail.com
+    [phone] => 
+    [role] => member
+)
+
+Update Request: stdClass Object
+(
+    [id] => 2
+    [name] => rakib 2
+    [email] => rakib2@gmail.com
+    [phone] => 
+    [new_password] => rasel123
+    [old_password] => rakib12345
+)
+
+Basic Update Result: Success
+Attempting Password Update
+Password Update Success
+Returning User: Array
+(
+    [id] => 2
+    [name] => rakib 2
+    [email] => rakib2@gmail.com
+    [phone] => 
+    [role] => member
+)
+
+Update Request: stdClass Object
+(
+    [id] => 2
+    [name] => rakib 2
+    [email] => rakib2@gmail.com
+    [phone] => 
+    [new_password] => rasel123
+    [old_password] => rakib12345
+)
+
+Basic Update Result: Success
+Attempting Password Update
+Old Password Mismatch

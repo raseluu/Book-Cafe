@@ -1,0 +1,5 @@
+Columns in 'registrations' table:
+id (int(11))
+user_id (int(11))
+event_id (int(11))
+created_at (timestamp)

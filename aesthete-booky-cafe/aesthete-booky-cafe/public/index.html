@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthete Book Cafe - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+    <!-- 1. Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span
+                style="font-size: 0.9rem; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 1rem; display: block; opacity:0.9;">Est.
+                2024 · Dhaka</span>
+            <h1 style="font-size: 4rem; margin-bottom: 1rem;">Where Books Meet the Soul</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">A sanctuary for literature lovers and coffee enthusiasts
+                in Dhaka.</p>
+
+            <!-- Focused 10% Discount CTA -->
+            <div
+                style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); padding: 1.5rem 2.5rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.3); margin-bottom: 2rem; display: inline-block;">
+                <p style="margin: 0; font-size: 1.2rem; color: #fff;">🎉 Join today & get <strong
+                        style="color: #FFD700; font-size: 1.4rem;">10% OFF</strong> your first order!</p>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="books.html" class="btn btn-primary"
+                    style="padding: 1rem 3rem; font-size: 1.1rem; margin-right: 1rem;">Explore Books</a>
+                <a href="signup.html" class="btn btn-outline"
+                    style="border-color: #fff; color: #fff; padding: 1rem 3rem;">Sign Up Now</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </section>
+
+    <!-- 2. Featured Books -->
+    <section class="section-books">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Books</h2>
+                <p>Curated selections for your reading pleasure.</p>
+            </div>
+            <div class="grid books-grid" id="books-grid">
+                <!-- JS Loaded -->
+                <div style="text-align: center; grid-column: 1/-1;">Loading books...</div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="books.html" class="btn btn-outline">View all books</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Today's Special (Menu Preview) -->
+    <section class="section-menu" style="background: #fff;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Today's Specials</h2>
+                <p>Freshly prepared delights.</p>
+            </div>
+            <div class="menu-preview-grid">
+                <!-- Static Preview Items -->
+                <div class="menu-item-small">
+                    <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=300&q=80"
+                        alt="Latte">
+                    <div class="menu-item-info">
+                        <h4>Hazelnut Latte</h4>
+                        <span>৳ 350</span>
+                    </div>
+                </div>
+                <div class="menu-item-small">
+                    <img src="https://images.unsplash.com/photo-1579306194872-64d3b7bac4c2?auto=format&fit=crop&w=300&q=80"
+                        alt="Cheesecake">
+                    <div class="menu-item-info">
+                        <h4>Blueberry Cheesecake</h4>
+                        <span>৳ 450</span>
+                    </div>
+                </div>
+                <div class="menu-item-small">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=300&q=80"
+                        alt="Croissant">
+                    <div class="menu-item-info">
+                        <h4>Butter Croissant</h4>
+                        <span>৳ 220</span>
+                    </div>
+                </div>
+                <div class="menu-item-small">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=300&q=80"
+                        alt="Iced Coffee">
+                    <div class="menu-item-info">
+                        <h4>Cold Brew</h4>
+                        <span>৳ 300</span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="menu.html" class="btn btn-outline" style="border: none; border-bottom: 1px solid;">See Full
+                    Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Why Choose Us -->
+    <section class="section-features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon">🛋️</div>
+                    <h3>Cozy Reading Space</h3>
+                    <p>Designed for comfort and focus, our corners are perfect for getting lost in a story.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">☕</div>
+                    <h3>Freshly Brewed Coffee</h3>
+                    <p>Sourced from sustainable farms and roasted locally for the perfect cup.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">🎤</div>
+                    <h3>Community Events</h3>
+                    <p>From poetry slams to author meetups, we celebrate culture every week.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Upcoming Events -->
+    <section class="section-events">
+        <div class="container">
+            <div class="section-title">
+                <h2>Upcoming Events</h2>
+                <p>Join the conversation.</p>
+            </div>
+            <div class="grid events-grid" id="home-events-grid">
+                <!-- JS Loaded -->
+                <div style="text-align: center; grid-column: 1/-1;">Loading events...</div>
+            </div>
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="events.html" class="btn btn-outline"
+                    style="border-color: var(--color-primary); color: var(--color-primary);">View All Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Testimonials -->
+    <section class="section-testimonials" style="background: #fff;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Reader Reviews</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="User">
+                    <p>"The best place in Dhaka to write. The ambiance is inspiring."</p>
+                    <h4>— Farzana Akter</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User">
+                    <p>"Great coffee collection and even better book selection."</p>
+                    <h4>— Rahim Uddin</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="User">
+                    <p>"Loved the poetry night! Can't wait for the next one."</p>
+                    <h4>— Nusrat Jahan</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Community Highlights -->
+    <section class="section-community">
+        <div class="container">
+            <div class="section-title">
+                <h2>Community Highlights</h2>
+                <p>Moments captured at Aesthete.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=500&q=80"
+                        alt="Interior"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=500&q=80"
+                        alt="Coffee"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=500&q=80"
+                        alt="Books"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1463107971871-fbac9ddb920f?auto=format&fit=crop&w=500&q=80"
+                        alt="Reading"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=500&q=80"
+                        alt="Event"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=500&q=80"
+                        alt="Friends"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Quote of the Day -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote>“Books are the mirrors of the soul.”</blockquote>
+            <cite>— Virginia Woolf</cite>
+        </div>
+    </section>
+
+    <!-- 9. CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Join Our Next Event — Connect with fellow readers.</h2>
+            <a href="events.html" class="btn">View Events</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h2 class="footer-heading">Aesthete.</h2>
+                    <p>Literature. Coffee. Culture.</p>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Explore</h4>
+                    <ul class="footer-links">
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Visit</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li>Dhaka, Bangladesh</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aesthete Book Cafe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/layout.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Fetch Books
+            fetch('/api/books')
+                .then(res => res.json())
+                .then(data => {
+                    const grid = document.getElementById('books-grid');
+                    grid.innerHTML = '';
+                    // 3 Featured Books
+                    data.slice(0, 3).forEach(book => {
+                        const card = document.createElement('div');
+                        card.className = 'card';
+                        card.innerHTML = `
+                        <div class="card-img-wrapper">
+                            <img src="${book.image}" alt="${book.title}" onerror="handleImageError(this)">
+                        </div>
+                        <div class="card-body">
+                            <span class="card-meta">Featured</span>
+                            <h3 class="card-title">${book.title}</h3>
+                            <p class="card-price">৳ ${book.price}</p>
+                            <p class="card-desc" style="display:none;">${book.author}</p>
+                            <!-- Removed View Details Button as requested -->
+                        </div>
+                    `;
+                        grid.appendChild(card);
+                    });
+                })
+                .catch(err => console.error(err));
+
+            // Fetch Events
+            fetch('/api/events')
+                .then(res => res.json())
+                .then(data => {
+                    const grid = document.getElementById('home-events-grid');
+                    if (data.length === 0) {
+                        grid.innerHTML = '<p style="text-align:center; grid-column:1/-1;">No upcoming events.</p>';
+                    } else {
+                        grid.innerHTML = '';
+                        // 2 Upcoming Events
+                        data.slice(0, 2).forEach(event => {
+                            const date = new Date(event.date).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+                            const card = document.createElement('div');
+                            card.className = 'card';
+                            card.innerHTML = `
+                             <div class="card-img-wrapper">
+                                 <img src="${event.image}" alt="${event.title}" onerror="handleImageError(this)">
+                             </div>
+                             <div class="card-body">
+                                 <span class="card-meta">${date}</span>
+                                 <h3 class="card-title">${event.title}</h3>
+                                 <p class="card-desc">${event.description.substring(0, 80)}...</p>
+                                 <a href="events.html" class="btn btn-primary" style="width:100%;">Register Now</a>
+                             </div>
+                         `;
+                            grid.appendChild(card);
+                        });
+                    }
+                });
+        });
+    </script>
+</body>
+
+</html>

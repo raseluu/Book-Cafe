@@ -1,0 +1,90 @@
+Upload Init: Array
+(
+    [image] => Array
+        (
+            [name] => WhatsApp Image 2025-10-25 at 11.15.37 PM.jpeg
+            [full_path] => WhatsApp Image 2025-10-25 at 11.15.37 PM.jpeg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/php2qknhm3i649kbuAfSSF
+            [error] => 0
+            [size] => 1142826
+        )
+
+)
+
+Success: 1765090120_WhatsApp Image 2025-10-25 at 11.15.37 PM.jpeg
+Upload Init: Array
+(
+    [image] => Array
+        (
+            [name] => 20241111_114003.jpg
+            [full_path] => 20241111_114003.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+Upload Init: Array
+(
+    [image] => Array
+        (
+            [name] => banner101.png
+            [full_path] => banner101.png
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+Upload Init: Array
+(
+)
+
+Upload Init: Array
+(
+    [image] => Array
+        (
+            [name] => Hosttier-logo.png
+            [full_path] => Hosttier-logo.png
+            [type] => image/png
+            [tmp_name] => /tmp/phpjimf0cc1dqmoaaFaC64
+            [error] => 0
+            [size] => 14617
+        )
+
+)
+
+Upload Init: Array
+(
+    [image] => Array
+        (
+            [name] => IMG-20250715-WA0027.jpg
+            [full_path] => IMG-20250715-WA0027.jpg
+            [type] => image/jpeg
+            [tmp_name] => /tmp/phpapk15g9978mpfYvAmVu
+            [error] => 0
+            [size] => 817217
+        )
+
+)
+
+Upload Init: Array
+(
+    [image] => Array
+        (
+            [name] => 20241111_114017.jpg
+            [full_path] => 20241111_114017.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+Upload Error Code 1: File is too large (Server Limit).
